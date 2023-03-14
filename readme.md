@@ -30,9 +30,10 @@ Create a .env file in the root directory of the project with the content of .env
 
 ```.env
 API_KEY=your-api-key
+PORT=5000
 ```
 
-Replace the API_KEY value with your own.
+Replace the API_KEY and PORT values with your own.
 
 Start the server:
 ```sql
@@ -45,7 +46,7 @@ Once the server is running, you can send a POST request to the /upload endpoint 
 Here's an example using curl:
 
 ```bash
-curl -X POST -F file=@/path/to/file http://localhost:3000/upload
+curl -X POST -F file=@/path/to/file http://{ip}:{port}/upload
 ```
 
 And here is an example using UploaderCLI:
