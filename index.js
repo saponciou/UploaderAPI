@@ -13,7 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //global settings
-const port = 5000;
+const port = process.env.PORT;
+
 // error handler middleware
 app.use(function (err, req, res, next) {
     console.error(err.stack);
