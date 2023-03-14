@@ -1,0 +1,11 @@
+modifiers:
+  dir: \
+  provider: animixplay
+  quality: ''
+  range: ''
+  special: ''
+toggles:
+  dir: false
+  quality: true
+  range: false
+  special: false
