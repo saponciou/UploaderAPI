@@ -37,7 +37,7 @@ Replace the API_KEY and PORT values with your own.
 
 Start the server:
 ```sql
-npm start
+npm run start
 ```
 
 ## Usage
